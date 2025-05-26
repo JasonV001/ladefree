@@ -3,8 +3,8 @@ export UUID=${UUID:-'4333424f-14fe-c9af-35ad-a98db0ed5620'} # 哪吒v1,在不同
 export NEZHA_SERVER=${NEZHA_SERVER:-''}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
 export NEZHA_PORT=${NEZHA_PORT:-''}           # v1哪吒不要填写这个,v0哪吒agent端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
 export NEZHA_KEY=${NEZHA_KEY:-''}             # v1的NZ_CLIENT_SECRET或v0的agent密钥
-export ARGO_DOMAIN=${ARGO_DOMAIN:-'ladejp.820224.xyz'}         # 固定隧道域名,留空即启用临时隧道
-export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"0b552b6d63190f34edf4684d7cbc7864","TunnelSecret":"wHoh85kT8GdiWAlS/FuVw63ZpXhlFQ/BhrHYA1qTEcY=","TunnelID":"985ec23e-f587-483f-9efb-2bdad53780fa","Endpoint":""}'}             # 固定隧道token或json,留空即启用临时隧道
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'ladexjp.820224.xyz'}         # 固定隧道域名,留空即启用临时隧道
+export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"0b552b6d63190f34edf4684d7cbc7864","TunnelSecret":"9DQMAEoA1Qa5K4BrI1Fz7m3k74FKSmi35Coypm47qK0=","TunnelID":"bd90c7d1-1caf-418e-bfdd-4da7e070dc47","Endpoint":""}'}             # 固定隧道token或json,留空即启用临时隧道
 export CFIP=${CFIP:-'py.820224.xyz'}        # argo节点优选域名或优选ip
 export CFPORT=${CFPORT:-'2053'}                # argo节点端口 
 export NAME=${NAME:-'lade'}                    # 节点名称  
